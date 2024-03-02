@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export function HeroOne() {
     return (
-        <div className="relative w-full bg-white h-[calc(100vh-6rem)]">
+        <div className="relative w-full bg-white ">
             <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
                 <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
                     <svg
@@ -61,13 +61,7 @@ export function HeroOne() {
                     alt=""
                     layout='fill'
                     />
-                    {/* <Image
-                     className="aspect-[3/2] bg-gray-50 object-cover lg:aspect-[4/3] lg:h-[700px] xl:aspect-[16/9] hidden md:block"
-                    //   <!-- Added class "hidden md:block" to hide it on screens larger than medium size -->
-                    src="/slide1.png"
-                    alt=""
-                    layout='fill'
-                  /> */}
+                    
                 </div>
             </div>
         </div>
