@@ -9,12 +9,24 @@ const menuItems = [
     href: '#',
   },
   {
-    name: 'About',
-    href: '#',
+    name: 'Menu',
+    href: '/menu',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/contact',
+  },
+  {
+    name: 'Cart',
+    href: '/cart',
+  },
+  {
+    name: 'Login',
+    href: '/login',
+  },
+  {
+    name: 'Order',
+    href: '/order',
   },
 ]
 
